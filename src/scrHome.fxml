@@ -47,12 +47,12 @@
          <children>
             <ImageView fitHeight="206.0" fitWidth="572.0" layoutX="28.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../Imgs/outback.png" />
+                  <Image url="@../imgs/outback.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="186.0" fitWidth="572.0" layoutX="28.0" layoutY="513.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../Imgs/madero.png" />
+                  <Image url="@../imgs/madero.png" />
                </image>
             </ImageView>
             <Label layoutX="28.0" layoutY="226.0" prefHeight="59.0" prefWidth="342.0" text="OS FAVORITOS" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
@@ -77,7 +77,7 @@
             </Label>
             <ImageView fitHeight="574.0" fitWidth="668.0" layoutX="672.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../Imgs/MPA.png" />
+                  <Image url="@../imgs/mapa.png" />
                </image>
             </ImageView>
             <TextField layoutX="672.0" layoutY="32.0" prefHeight="39.0" prefWidth="460.0" promptText="Av. Marechal Deodoro">
