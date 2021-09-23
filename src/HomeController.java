@@ -28,4 +28,14 @@ public class HomeController {
         s1.show(); 
     }
 
+    @FXML
+    void mapOpen(ActionEvent event) throws Exception{
+        Stage s1 = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("scrMapa.fxml"));
+        Scene scene = new Scene(root);
+
+        s1.setScene(scene);
+        s1.show(); 
+    }
+
 }

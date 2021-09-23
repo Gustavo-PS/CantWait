@@ -45,7 +45,7 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #C27D57;" VBox.vgrow="ALWAYS">
          <children>
-            <ImageView fx:id="outback" fitHeight="206.0" fitWidth="572.0" layoutX="28.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="outback" fitHeight="206.0" fitWidth="572.0" layoutX="28.0" layoutY="301.0" onMouseClicked="#outbackOpen" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../imgs/outback.png" />
                </image>
@@ -100,7 +100,7 @@
                   <Font name="Corbel Light" size="19.0" />
                </font>
             </Button>
-            <Button fx:id="openClose" alignment="CENTER" layoutX="636.0" layoutY="327.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="38.0" style="-fx-background-color: #FFFFFF;" text="&lt;" textFill="#38230a">
+            <Button fx:id="openClose" alignment="CENTER" layoutX="636.0" layoutY="327.0" mnemonicParsing="false" onAction="#mapOpen" prefHeight="35.0" prefWidth="38.0" style="-fx-background-color: #FFFFFF;" text="&lt;" textFill="#38230a">
                <font>
                   <Font name="Arial Bold" size="37.0" />
                </font>
